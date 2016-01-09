@@ -26,7 +26,7 @@ app.controller('MainCtrl', [
   }
   */
   if (Modernizr.getusermedia){
-  	alert("gUM in effect");
+    //alert("gUM in effect");
     //var gUM = Modernizr.prefixed('getUserMedia', navigator);
     //gUM({video: true}, function(){});
   }
