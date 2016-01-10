@@ -2,6 +2,7 @@
 /*global
   angular
 */
+/*
 var app = angular.module('flapperNews', []);
 
 app.controller('MainCtrl', [
@@ -11,3 +12,4 @@ app.controller('MainCtrl', [
     $scope.test = 'Hello world!';
   }
 ]);
+*/

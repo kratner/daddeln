@@ -1,6 +1,6 @@
 /*jslint white: true */
 /*global
-  $, alert, document
+  $, alert, angular, document
 */
 (function(){
   "use strict";
@@ -21,7 +21,7 @@
    * zocken {vb} to game
    */
 
-  var zk = {
+  var zk = {    
     init: function() {
       alert("initializing");
     }
@@ -29,6 +29,13 @@
   $(document).ready(function(){
     zk.init();
   });
+  var app = angular.module('flapperNews', []);
+  app.controller('MainCtrl', [
+    '$scope',
+    function($scope){
+      $scope.test = 'Hello world!';
+    }
+  ]);
   /*
   if (Modernizr.getusermedia){
     //alert("gUM in effect");
