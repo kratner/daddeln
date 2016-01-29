@@ -1,0 +1,24 @@
+{
+  "name": "the-daddeln-project",
+  "version": "1.0.0",
+  "description": "Let there be playing.",
+  "main": "index.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kratner/daddeln.git"
+  },
+  "keywords": [
+    "node",
+    "angular",
+    "sass"
+  ],
+  "author": "Keith Ratner",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kratner/daddeln/issues"
+  },
+  "homepage": "https://github.com/kratner/daddeln#readme"
+}
